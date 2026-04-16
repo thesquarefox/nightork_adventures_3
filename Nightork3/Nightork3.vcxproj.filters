@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Gameplay">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Menue">
+      <UniqueIdentifier>{47e23808-6a7d-487c-92e3-38693c1de916}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IrrlichtAndHelpers">
+      <UniqueIdentifier>{708e4c58-9fa9-4716-93ce-b793f83756af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{cfdf78ab-27fa-440d-9cdf-ed4b4c6014e4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Player.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterManager.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Hud.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="DunGenProxy.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectilManager.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="GameplayStats.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Menue</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStates.cpp">
+      <Filter>Menue</Filter>
+    </ClCompile>
+    <ClCompile Include="EventReceiver.cpp">
+      <Filter>Menue</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Menue</Filter>
+    </ClCompile>
+    <ClCompile Include="CGUITextBox.cpp">
+      <Filter>IrrlichtAndHelpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Pilot.cpp">
+      <Filter>Menue</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper.cpp">
+      <Filter>IrrlichtAndHelpers</Filter>
+    </ClCompile>
+    <ClCompile Include="HighScores.cpp">
+      <Filter>Menue</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEffects.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Music.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Credits.cpp">
+      <Filter>Menue</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerUpManager.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Player.h">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterManager.h">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Hud.h">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="DunGenProxy.h">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectilManager.h">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterTypes.h">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="GameplayStats.h">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStates.h">
+      <Filter>Menue</Filter>
+    </ClInclude>
+    <ClInclude Include="EventReceiver.h">
+      <Filter>Menue</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Menue</Filter>
+    </ClInclude>
+    <ClInclude Include="CGUITextBox.h">
+      <Filter>IrrlichtAndHelpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Pilot.h">
+      <Filter>Menue</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper.h">
+      <Filter>IrrlichtAndHelpers</Filter>
+    </ClInclude>
+    <ClInclude Include="HighScores.h">
+      <Filter>Menue</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEffects.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Music.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Credits.h">
+      <Filter>Menue</Filter>
+    </ClInclude>
+    <ClInclude Include="Shield.h">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerUpManager.h">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

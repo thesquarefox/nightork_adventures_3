@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7BDFCAF6-F088-4513-BBC2-DE173540C761}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Nightork3</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Gamedev\Nightork\Irrlicht-1.8.5\include;C:\Gamedev\Nightork\irrKlang-pro-1.6.0\include;C:\Gamedev\Nightork\steamworks_sdk_162\sdk\public\steam;..\DunGen\interface;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Gamedev\Nightork\Irrlicht-1.8.5\lib\Win64-visualstudio;C:\Gamedev\Nightork\irrKlang-pro-1.6.0\lib\Winx64-visualStudio;C:\Gamedev\Nightork\steamworks_sdk_162\sdk\redistributable_bin\win64;..\bin;$(LibraryPath)</LibraryPath>
+    <OutDir>..\bin</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Gamedev\Nightork\Irrlicht-1.8.5\include;C:\Gamedev\Nightork\irrKlang-pro-1.6.0\include;C:\Gamedev\Nightork\steamworks_sdk_162\sdk\public\steam;;..\DunGen\interface;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Gamedev\Nightork\Irrlicht-1.8.5\lib\Win64-visualstudio;C:\Gamedev\Nightork\irrKlang-pro-1.6.0\lib\Winx64-visualStudio;C:\Gamedev\Nightork\steamworks_sdk_162\sdk\redistributable_bin\win64;..\bin;$(LibraryPath)</LibraryPath>
+    <OutDir>..\bin</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CGUITextBox.cpp" />
+    <ClCompile Include="CollisionManager.cpp" />
+    <ClCompile Include="Credits.cpp" />
+    <ClCompile Include="DunGenProxy.cpp" />
+    <ClCompile Include="EventReceiver.cpp" />
+    <ClCompile Include="GameplayStats.cpp" />
+    <ClCompile Include="GameStates.cpp" />
+    <ClCompile Include="Helper.cpp" />
+    <ClCompile Include="HighScores.cpp" />
+    <ClCompile Include="Hud.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="Monster.cpp" />
+    <ClCompile Include="MonsterManager.cpp" />
+    <ClCompile Include="Music.cpp" />
+    <ClCompile Include="Pilot.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PowerUpManager.cpp" />
+    <ClCompile Include="ProjectilManager.cpp" />
+    <ClCompile Include="SoundEffects.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CGUITextBox.h" />
+    <ClInclude Include="CollisionManager.h" />
+    <ClInclude Include="Color.h" />
+    <ClInclude Include="Constants.h" />
+    <ClInclude Include="Credits.h" />
+    <ClInclude Include="DunGenProxy.h" />
+    <ClInclude Include="EventReceiver.h" />
+    <ClInclude Include="GameplayStats.h" />
+    <ClInclude Include="GameStates.h" />
+    <ClInclude Include="Helper.h" />
+    <ClInclude Include="HighScores.h" />
+    <ClInclude Include="Hud.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="Monster.h" />
+    <ClInclude Include="MonsterManager.h" />
+    <ClInclude Include="MonsterTypes.h" />
+    <ClInclude Include="Music.h" />
+    <ClInclude Include="Pilot.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PowerUpManager.h" />
+    <ClInclude Include="ProjectilManager.h" />
+    <ClInclude Include="Shield.h" />
+    <ClInclude Include="SoundEffects.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
