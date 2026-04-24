@@ -16,3 +16,4 @@ The following libraries are used:
 
 Released game in Steam:
 https://store.steampowered.com/app/4120590/Nightork_Adventures_3__Arena/
+(note: the assets of the released game have own licenses and are partly copyrighted)
