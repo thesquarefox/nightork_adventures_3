@@ -23,5 +23,5 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 -------------------------------------------------------------------------------
 
-If you like Nightork Adventures 3 and/or the source code and we ever meet in person, you are welcome
-to buy the author a beer.
+If you like Nightork Adventures 3 and/or the source code and we ever meet in person,
+you are welcome to buy the author a beer.
